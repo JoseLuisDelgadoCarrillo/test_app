@@ -3,4 +3,7 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   root 'pages#home'
+
+  #   pagina     controlador#accion
+  get 'about', to: 'pages#about'
 end
